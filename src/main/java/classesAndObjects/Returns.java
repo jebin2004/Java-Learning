@@ -1,4 +1,4 @@
-package ClassesandObjects;
+package classesAndObjects;
 
 public class Returns {
 	static int sum(int x, int y){

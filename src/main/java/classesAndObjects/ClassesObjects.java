@@ -1,4 +1,4 @@
-package ClassesandObjects;
+package classesAndObjects;
 
 public class ClassesObjects {
 	int speed;

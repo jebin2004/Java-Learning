@@ -3,6 +3,7 @@ package sample;
 
 public class Methods {
 	private String colour;
+	static int age = 28;
 	
 	public String getColour(){
 		return colour;
@@ -15,12 +16,12 @@ public class Methods {
 //		sc.close();
 		System.out.println("Hello " + name);
 	}
-	public static void getHelloWorld(){
-		helloWorld("Jebin");
+	public static void getHelloWorld(String name){
+		helloWorld(name);
 	}
 	public static void main(String[] args) {
 		Methods.helloWorld("David");
-		getHelloWorld();
+		getHelloWorld("Jebin");
 	}	
 	
 }
