@@ -1,3 +1,4 @@
+// Find out duplicate number between 1 to N numbers
 package realExample;
 
 import java.util.Arrays;
